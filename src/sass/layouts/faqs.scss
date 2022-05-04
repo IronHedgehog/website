@@ -1,0 +1,61 @@
+
+
+
+
+.Button__item-faqs:not(:last-child) {
+    // margin-right: 101px;
+    margin-right:52px;
+}
+
+.Button-faqs{
+width: 450px;
+height: 75.92px;
+
+background: #2F7676;
+border-radius: 10px;
+
+    &:focus {
+        background: #858585;
+    }
+}
+
+.Button__list-faqs {
+    display: flex;
+}
+// .Button--text {
+//     font-family: 'AdonisCRegular';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 22px;
+//     line-height: 26px;
+//     text-align: justify;
+
+//     color: #ffffff;
+// }
+
+// .text-container {
+//     position: relative;
+
+//     width: 992px;
+
+//     margin-top: 230px;
+// }
+
+// .text__container--text {
+//     position: absolute;
+
+//     opacity: 0;
+
+//     font-family: 'AdonisCRegular';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 32px;
+//     line-height: 38px;
+//     text-align: justify;
+
+//     color: #ffffff;
+// }
+
+// .visible-js {
+//     opacity: 1;
+// }
