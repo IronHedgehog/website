@@ -10,8 +10,6 @@ const refs = {
   text4: document.querySelector('#text-4'),
 };
 
-refs.button1.focus();
-
 refs.button1.addEventListener('focus', () => refs.text1.classList.add('visible-js'));
 refs.button1.addEventListener('blur', () => refs.text1.classList.remove('visible-js'));
 
